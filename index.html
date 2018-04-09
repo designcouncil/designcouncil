@@ -1,3 +1,137 @@
-Hello world
+<link rel="stylesheet" href="https://use.typekit.net/dmc7wcv.css">
 
-Hi ther!
+<style>
+body {
+  margin:0px;
+  padding: 0px;
+
+}
+
+*{
+  font-family: "Brother 1816", "Lato", Lato, Helvetica;
+}
+
+section[name="intro"]{
+  width:100%;
+  min-height:100vh;
+  background-color:white;
+  display: inline-block;
+  background-image:url('low.png');
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+section[name="intro"] > header{
+  width:100%;
+  height: 160px;
+  display: inline-block;
+}
+
+section[name="intro"] > header > img#logo{
+  height:95px;
+  margin:30px;
+  float:left;
+  display: inline-block;
+}
+
+section[name="intro"] > header > div#links{
+  float:left;
+  margin-top:65px;
+}
+
+section[name="intro"] > header > div#links > a{
+  margin-right:20px;
+  font-size: 14px;
+  font-weight: 600;
+  color:#444;
+
+}
+
+section[name="intro"] #title{
+  width:90%;
+  margin-left:5%;
+  margin-right:5%;
+  margin-top:10vh;
+}
+
+section[name="intro"] #title > h2{
+  text-align:right;
+  font-size:76px;
+  margin-bottom: 0px;
+  font-weight:500;
+}
+
+section[name="intro"] #title > img#headline{
+  width: 100%;
+}
+
+section[name="intro"] #title > #input{
+  height:80px;
+  width:600px;
+  margin-top:20px;
+  border-radius:50px;
+  background-color:white;
+  box-shadow: 0 0 30px #95D8ff;
+  padding:5px;
+  box-sizing: border-box;
+}
+
+section[name="intro"] #title > #input > input{
+  height:70px;
+  width:350px;
+  outline:none;
+  font-size:18px;
+  border:none;
+  margin-top:-2px;
+  float:left;
+  padding-top:0px;
+  background-color:transparent;
+  padding-left:25px;
+  color:#bbb;
+}
+
+section[name="intro"] #title > #input > #submit{
+  width:230px;
+  height: 60px;
+  border-radius:35px;
+  background-color: #95D8ff;
+  color:white;
+  text-align: center;
+  float:left;
+  margin:5px;
+  padding-top:13px;
+  font-size:18px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+section[name="intro"] #title > #input > #submit:hover{
+  opacity: .5;
+}
+
+section[name="intro"] #title > #input > input::placeholder{
+  color:#ddd;
+
+}
+</style>
+
+<section name="intro">
+  <header>
+    <img id="logo" src="logo.png">
+    <div id="links">
+      <a>ABOUT</a>
+      <a>SPEAKERS</a>
+      <a>CHALLENGE</a>
+
+    </div>
+  </header>
+  <div id="title">
+    <h2>Announcing the</h2>
+    <img src="title.png" id="headline">
+    <div id="input">
+      <input placeholder="Type Your Email Address">
+      <div id="submit">REGISTER</div>
+    </div>
+  </div>
+</section>
