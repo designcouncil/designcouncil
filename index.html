@@ -53,6 +53,7 @@ section[name="intro"] #title{
   margin-left:5%;
   margin-right:5%;
   margin-top:10vh;
+  height: 50vh;
 }
 
 section[name="intro"] #title > h2{
@@ -114,6 +115,55 @@ section[name="intro"] #title > #input > input::placeholder{
   color:#ddd;
 
 }
+
+section[name="intro"] #subtitle{
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top:3vh;
+  height: 40px;
+  text-align: center;
+  color:#bbb;
+  font-size:24px;
+}
+
+section[name="intro"] #threepoints{
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top:3vh;
+  height: 40vh;
+  text-align: center;
+  background-color:#2E3192;
+  background-image:url('3p.png');
+  background-size: cover;
+  background-position: top;
+  font-size:36px;
+  color: white;
+  margin-bottom: 10vh;
+  padding:15px;
+  text-align: center;
+}
+
+section[name="intro"] #threepoints > .point{
+  width:calc(100% / 3);
+  float:left;
+  margin-top:7vh;
+  text-align: center;
+  height:80px;
+
+}
+
+section[name="bigwords"]{
+  background-color:#95D8ff;
+  height:80vh;
+  background-image: url('words.png');
+  background-position: center;
+  background-size:90%;
+  background-repeat: no-repeat;
+  width:100%;
+  display: inline-block;
+}
 </style>
 
 <section name="intro">
@@ -134,4 +184,16 @@ section[name="intro"] #title > #input > input::placeholder{
       <div id="submit">REGISTER</div>
     </div>
   </div>
+  <div id="subtitle">
+    April 21st, 2018 · Columbia University · Carlton Commons · 8AM to 5PM · Speakers · Prizes
+  </div>
+  <div id="threepoints">
+    <p>One Day of Nonstop Design Thinking</p>
+    <div class="point">Workshops</div>
+    <div class="point">Speakers</div>
+    <div class="point">Challenge</div>
+
+  </div>
+</section>
+<section name="bigwords">
 </section>
